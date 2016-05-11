@@ -1,0 +1,3 @@
+Tutaj link do strony, gdzie mo¿emy poczytaæ o bibliotece. S¹ wszystkie funkcje opisane, jednak ³atwe zadanie to nie bêdzie. Sporo tego i raczej nie jest to zbyt intuicyjne dla pocz¹tkuj¹cych w tym temacie.
+
+Link: http://www.leidinger.net/lame/doxy/html/lame_8c.html
