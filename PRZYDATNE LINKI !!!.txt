@@ -2,3 +2,7 @@ Trzeba zrobiæ porz¹dek z tymi linkami. Od teraz wrzucamy wszystko do tego pliku.
 Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
 
 1) http://www.leidinger.net/lame/doxy/html/lame_8c.html
+
+2) http://stackoverflow.com/questions/10345064/converting-pcm-to-mp3-using-lame-causes-clicks-in-mp3-file
+
+3) http://stackoverflow.com/questions/16926725/audio-speed-changes-on-converting-wav-to-mp3
