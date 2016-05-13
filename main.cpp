@@ -1,11 +1,25 @@
+// Komenda do kompilacji:   g++ <nazwa_pliku.cpp> -lmp3lame -o PCM_to_MP3
+// Uruchomienie:            ./PCM_to_MP3 <nazwa_pliku_konwertowanego>.pcm <nazwa_pliku>.mp3
+
 #include <stdio.h>
+#include <iostream>
 #include <lame/lame.h>
 
-int main(void)
+//Dodalem argumenty wywolania programu, zeby nie trzeba bylo ich recznie zmieniac.
+int main(int argc, char **argv)
 {
     int read, write;
 
     FILE *pcm = fopen("file.pcm", "rb");
+
+    //Sprawdzam czy konwertowany plik .pcm istnieje, zeby nie naruszac pamieci gdy sie pomylimy przy wpisywaniu.
+	if(pcm==0)
+	{
+		std::cout<<"Plik "<<argv[1]<<" nie istnieje!!!"<<std::endl;
+		return -1;
+	}
+
+    //Plik .mp3 jest tworzony automatycznie, jesli nie istnieje, wiec nie ma potrzeby sprawdzania.
     FILE *mp3 = fopen("file.mp3", "wb");
 
     const int PCM_SIZE = 8192;
