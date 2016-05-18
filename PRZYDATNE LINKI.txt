@@ -8,3 +8,5 @@ Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
 3) http://stackoverflow.com/questions/16926725/audio-speed-changes-on-converting-wav-to-mp3
 
 4) http://stackoverflow.com/questions/2495420/is-there-any-lame-c-wraper-simplifier-working-on-linux-mac-and-win-from-pure/2496831#2496831
+
+5) http://stackoverflow.com/questions/10345064/converting-pcm-to-mp3-using-lame-causes-clicks-in-mp3-file
