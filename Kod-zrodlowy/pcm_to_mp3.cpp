@@ -5,7 +5,7 @@
 
 
 
-int pcm_to_mp3(std::string & pcm, std::string & mp3)
+int pcm_to_mp3(char * pcm, char * mp3)
 {
     int read, write;
 
