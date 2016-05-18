@@ -1,0 +1,41 @@
+Znalaz³em to na forum. Mo¿e siê przydaæ przy póŸniejszym rozbudowaniu programu, opisuj¹ tutaj problem z funkcjami do ustawiania czêstotliwoœci próbkowania.
+
+
+
+> I have an application that accepts a raw PCM stream.  This stream is
+> captured at 16bits, 44100khz and stereo.  When trying to encode this
+> stream LAME does a good job of it.  However, when I try to change the
+> bitrate or the number of channels (stereo/mono) the output is way off.
+> To set the frequency, I use :
+> lame_set_in_samplerate(m_lame, SAMPLE_RATE);  //where sample rate is
+> frequency e.g. 44100
+> The question I have is how do I set the number of channels and the
+> bitrate on the INPUT stream so that LAME will be able to encode the
+> stream properly?  Are there functions similar to:
+> lame_set_in_bitwidth(m_lame, 16);
+> lame_set_in_numChannels(m_lame, MONO);
+> I have tried searching for functions, but none of them seem to tell LAME
+> what the INPUT bits and channels are on a raw pcm stream.  I hope the
+> question is clear.
+> Thank you for your assistance!
+
+
+Take a look in lame.h, there you see the method to set the number of
+input channels:
+
+  /* number of channels in input stream. default=2  */
+  int CDECL lame_set_num_channels(lame_global_flags *, int);
+  int CDECL lame_get_num_channels(const lame_global_flags *);
+
+There is no function to set the bit depth, but you can set an input
+scaling:
+
+  /*
+    scale the input by this amount before encoding.  default=1
+    (not used by decoding routines)
+  */
+  int CDECL lame_set_scale(lame_global_flags *, float);
+  float CDECL lame_get_scale(const lame_global_flags *);
+
+Make sure it matches your input data and used encoding function, read
+the annotations from lame_encode* functions in lame.h.
