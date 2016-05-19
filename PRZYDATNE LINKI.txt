@@ -1,5 +1,5 @@
-Trzeba zrobiæ porz¹dek z tymi linkami. Od teraz wrzucamy wszystko do tego pliku. Ka¿dy bêdzie na bie¿¹co móg³ œledziæ, czy coœ ciekawego zosta³o dodane.
-Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
+Trzeba zrobiÃ¦ porzÂ¹dek z tymi linkami. Od teraz wrzucamy wszystko do tego pliku. KaÂ¿dy bÃªdzie na bieÂ¿Â¹co mÃ³gÂ³ Å“ledziÃ¦, czy coÅ“ ciekawego zostaÂ³o dodane.
+Numerujcie je, uÂ³atwi to ewentualne pÃ³Å¸niejsze dyskusje i pracÃª.
 
 1) http://www.leidinger.net/lame/doxy/html/lame_8c.html
 
@@ -10,3 +10,5 @@ Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
 4) http://stackoverflow.com/questions/2495420/is-there-any-lame-c-wraper-simplifier-working-on-linux-mac-and-win-from-pure/2496831#2496831
 
 5) http://stackoverflow.com/questions/10345064/converting-pcm-to-mp3-using-lame-causes-clicks-in-mp3-file
+
+6) http://www.mp3-tech.org/programmer/decoding.html
