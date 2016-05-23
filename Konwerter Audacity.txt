@@ -1,0 +1,30 @@
+Audacity jest darmowym edytorem plików dŸwiêkowych, stanowi¹cym bezp³atn¹ alternatywê dla takich programów jak Cool Edit Pro i WaveLab. Jego g³ówne zadania to nagrywanie i odtwarzanie dŸwiêków, importowanie i eksportowanie plików w formatach MP3, WAV, AIFF, Ogg Vorbis i innych.
+
+Audacity umo¿liwia edycjê œcie¿ek dŸwiêkowych z wykorzystaniem wycinania, kopiowania i wklejania (z mo¿liwoœci¹ dowolnego cofania wykonanych operacji), miksowania œcie¿ek oraz dodawanie efektów (echo, usuwanie szumu, normalizacja itp.) a tak¿e umo¿liwia korzystanie z wtyczek efektowych VST i LADSPA. Program posiada tak¿e wbudowany edytor obwiedni/amplitudy, regulowany modu³ do wyœwietlania spektrogramów i analizy czêstotliwoœciowej dla programów do analizy audio.
+
+Z tego co wyczyta³em, Audacity pracuje na bazie LAME, wiêc jest to jego dodatkowy atut, jeœli chodzi o nasz¹ sytuacjê ;-)
+
+
+
+G³ówne funkcje:
+
+1) Swoboda zmiana formatów plików - wystarczy otworzyæ np. plik WAV, zmodyfikowaæ jego parametry wedle uznaznia i zapisaæ jako np. OGG. Proste !
+
+2) Mo¿liwoœæ odtwarzania plików przez aplikacjê, co jest sporym atutem, jeœli chcemy jakiœ plik dostosowaæ do swoich potrzeb - mo¿emy przecie¿ na bie¿¹co monitorowaæ zmiany i ods³uchiwaæ dane œcie¿ki dŸwiêkowe.
+
+3) Zmiana czêstotliwoœci próbkowania
+
+4) Mo¿liwoœæ korekty dŸwiêku poprzez rozbudowany modu³ poprawiania jakoœci dŸwiêku - np. redukcja szumu, usuwanie stukutu czy korekcja graficzna.
+
+5) Mo¿liwoœæ dodawania ciekawych efektów dŸwiêkowych.
+
+6) Czasami zdarza siê, ¿e dŸwiêk który posiadamy jest nagrany stosunkowo cicho wzglêdem innych plików na naszej playliscie. Jest to bardzo irytuj¹ce. I tutaj niespodzianka ! Audacity ma mo¿liwoœæ rêcznej zmiany g³oœnoœci.
+
+6) Du¿o hobbystycznych opcji - mo¿liwoœæ przycinania dŸwiêku, zmiana prêdkoœci, nak³adania kilka œcie¿ek dŸwiêkowych na siebie, sklejania plików dŸwiêkowych. Wszystko to umo¿liwia stworzenie ciekwych efektów. Ograniczeniem jest jednynie kreatywnoœæ.
+
+7) Historia edycji - jeœli w trakcie pracy zbyt daleko zabrniemy w modyfikacjê dŸwiêku lub zrobimy coœ, czego nie chcieliœmy, zawsze mo¿emy wróciæ do dowolnego momentu w którym coœ zmienialiœmy.
+
+8) I wiele, wiele innych ciekawych i przydatnych opcji.
+
+
+Zapoznajcie siê z tym programem w wolnej chwili. Musimy przemyœleæ które opcje zrealizowaæ jako pierwsze w naszym skromnym konwerterze.
