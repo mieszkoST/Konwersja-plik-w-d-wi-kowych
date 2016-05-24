@@ -17,6 +17,7 @@ lame_encode_flush(lame_global_flags * gfp, unsigned char *mp3buffer, int mp3buff
     int     is_resampling_necessary;
     double  resample_ratio = 1;
 
+    //Przeanalizować: is_lame_global_flags_valid(gfp)
     if (!is_lame_global_flags_valid(gfp)) {
         return -3;
     }
