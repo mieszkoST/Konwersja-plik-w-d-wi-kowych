@@ -34,12 +34,15 @@ lame_encode_flush(lame_global_flags * gfp, unsigned char *mp3buffer, int mp3buff
     }
     pcm_samples_per_frame = 576 * cfg->mode_gr;
     mf_needed = calcNeeded(cfg);
+    //Przeanalizować: calcNeeded(cfg);
 
     samples_to_encode = esv->mf_samples_to_encode - POSTDELAY;
 
+    //Przeanalizować: memset(buffer, 0, sizeof(buffer));
     memset(buffer, 0, sizeof(buffer));
     mp3count = 0;
 
+    //Przeanalizować: isResamplingNecessary(cfg);
     is_resampling_necessary = isResamplingNecessary(cfg);
     if (is_resampling_necessary) {
         resample_ratio = (double)cfg->samplerate_in / (double)cfg->samplerate_out;
@@ -69,6 +72,8 @@ lame_encode_flush(lame_global_flags * gfp, unsigned char *mp3buffer, int mp3buff
         /* send in a frame of 0 padding until all internal sample buffers
          * are flushed
          */
+
+        //Przeanalizować: lame_encode_buffer()
         imp3 = lame_encode_buffer(gfp, buffer[0], buffer[1], bunch,
                                   mp3buffer, mp3buffer_size_remaining);
 
@@ -92,6 +97,10 @@ lame_encode_flush(lame_global_flags * gfp, unsigned char *mp3buffer, int mp3buff
         mp3buffer_size_remaining = 0;
 
     /* mp3 related stuff.  bit buffer might still contain some mp3 data */
+
+    //Przeanalizować: flush_bitstream(gfc);
+    //Przeanalizować: copy_buffer();
+
     flush_bitstream(gfc);
     imp3 = copy_buffer(gfc, mp3buffer, mp3buffer_size_remaining, 1);
     save_gain_values(gfc);
