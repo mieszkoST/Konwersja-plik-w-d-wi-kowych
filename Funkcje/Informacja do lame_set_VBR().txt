@@ -1,0 +1,15 @@
+Cia³a tej funkcji nie uda³o siê znaleŸæ, ale kieruj¹c siê jej nazw¹ ( docelowo tajemniczym VBR ) znalaz³em nastêpuj¹c¹ defnicjê na Wikipedii:
+
+
+
+Zmienna przep³ywnoœæ (ang. Variable Bit Rate, VBR) jest okreœleniem stosowanym w telekomunikacji oraz informatyce.
+
+W odniesieniu do kodeków, zmienna przep³ywnoœæ oznacza zró¿nicowanie iloœci danych wyjœciowych przypadaj¹cych na poszczególne segmenty czasowe w zale¿noœci od z³o¿onoœci danych wejœciowych w tych segmentach. Celem takiej metody kompresji danych jest utrzymanie sta³ej jakoœci sygna³u wyjœciowego, nie zaœ sta³ej iloœci danych przypadaj¹cych na dan¹ jednostkê czasu. Technika VBR jest preferowana w przypadku przechowywania danych multimedialnych ze wzglêdu na bardziej efektywne wykorzystanie dostêpnej przestrzeni pamiêci masowej – wiêcej miejsca przeznaczane jest na bardziej skomplikowane segmenty, mniej zaœ na segmenty zawieraj¹ce dane o mniejszej z³o¿onoœci. Zmienna przep³ywnoœæ zastosowana w kompresji i dekompresji komplikuje oprogramowanie, lecz pozwala na otrzymanie lepszej jakoœæ materia³ów przy tej samej wielkoœci pliku.
+
+Technika zmiennej przep³ywnoœci wykorzystywana jest w niektórych kodekach wideo (np. DivX) i audio (np. Vorbis). Czêœæ kodeków, jak np. MP3, umo¿liwia kompresowanie z u¿yciem techniki zarówno sta³ej jak i zmiennej przep³ywnoœci.
+
+
+
+Wnioski nasuwaj¹ siê same - nasza funkcja zapewne ustawia, inicjuje, okreœla (Jak by to fachowo nazwaæ?) zmienn¹ przep³ywnoœæ, w celu lepszej jakoœci konwersji dŸwiêku przy zachowaniu tej samiej wielkoœci pliku.
+
+Co o tym s¹dzicie ?
