@@ -3,6 +3,12 @@
 // ODPOWIADA TEMU CO SZUKAMY. W PRZYPADKU GDY ZNAJDZIECIE
 // INNA FUNKCJE, KTORA JEST LEPSZA, EDYTUJCIE
 
+
+// Przejrza³em pobie¿nie kod tej funkcji i wywnioskowa³em ¿e s³u¿y ona do ustawienie pewnych wartoœci pocz¹tkowych
+// Jednak szczegó³owa jej analiza wymaga znaczej wiedzy na temat dŸwieku, której niestety nie posiadamy.
+// Musimy zatem na chwilê obecn¹ zaufaæ wartoœci¹ domyœlnym genererowanym automatycznie przez t¹ funckjê.
+// Byæ mo¿e kiedyœ ( jednak w¹tpiê ) któryœ z nas bêdzie w stanie zrozumieæ w pe³ni dzia³anie tej funkcji.
+
 int
 lame_init_params(lame_global_flags * gfp)
 {
