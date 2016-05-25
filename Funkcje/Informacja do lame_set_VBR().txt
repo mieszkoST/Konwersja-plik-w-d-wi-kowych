@@ -13,3 +13,8 @@ Technika zmiennej przep³ywnoœci wykorzystywana jest w niektórych kodekach wideo 
 Wnioski nasuwaj¹ siê same - nasza funkcja zapewne ustawia, inicjuje, okreœla (Jak by to fachowo nazwaæ?) zmienn¹ przep³ywnoœæ, w celu lepszej jakoœci konwersji dŸwiêku przy zachowaniu tej samiej wielkoœci pliku.
 
 Co o tym s¹dzicie ?
+
+
+// Wed³ug mnie to po prostu elastycznie dobiera iloœæ bitów potrzebnych na danej jednostce czasu, do utrzymania dobrej jakoœci.
+// Prawdopodobnie dzia³a ca³y czas, ¿eby ten wynik by³ jak najefektywniejszy
+// Widzia³em na internecie te¿, sta³¹ przep³ywoœæ na wikipedii.
