@@ -1,0 +1,5 @@
+Mamy funkcjê pcm to mp3 i ona dzia³a.
+Najwa¿niejszym elementem teraz bêdzie jak najmniejsza ingerencja
+w kod, poniewa¿ w takiej iloœci kodu z bibioteki nie jesteœmy w
+stanie siê odnaleŸæ. Trzeba odpowiednio tylko poprzestawiaæ dane,
+które s¹ wpisane i ta funkcja powinna zadzia³aæ.
