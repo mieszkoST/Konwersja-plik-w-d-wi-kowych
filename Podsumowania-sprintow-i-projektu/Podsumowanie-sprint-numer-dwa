@@ -1,0 +1,22 @@
+                                                Podsumowanie sprintu numer dwa !!!
+  Sprint drugi ozpoczął się dnia 12 maja 2016, a zakończyl 19 maja 2016. Na Trello.com wybraliśmy sobie trzy główne cele do wykonania. 
+  Mianowicie były to :
+  1) Biblioteka LAME - start !
+  2) Biblioteka LAME - rozpoczynamy zabawe !
+  3) Szukanie poradników i tutoriali.
+  Oczywiście każdy cel miał swoją listę zadań.
+  
+  Pierwszy z nich opierał się głównie na instalacji Linuxa, a dokładniej Ubuntu. Można to zrobić na dwa sposoby albo instalujać sam system
+  operacyjny, albo przez VirtualBoxa. Kolejnym krokiem była instalacja biblioteki Lame. Na samym końcu puszczenie programu testowego i 
+  sprawdzenie czy wszystko działa.
+  
+  Drugi już wymagał od nas wiele więcej pracy. Takich jak uporządkowanie materiałów na GitHub np. odseparowanie kodu. Oczywiście nie mogło
+  się obyć bez komentarzy do funkcji i samej analizy lame.c i lame.h. Dodaliśmy na przykład takie funkcje jak lame_init(void) czy lame_init(void).
+  
+  Z trzecim celem, który sobie założyliśmy do wykonania mieliśmy największy problem. W liście zadań mieliśmy takie rzeczy jak na przykład
+  poradniki, przykłady, fragmenty kodów. Niestety ten cel został wykonany przez nas połowicznie. 
+  
+  Podsumuwując już ogólnie drugi sprint sporo dowiedzieliśmy się nowych rzeczy o konwersji plików audio. Dodatkowo poznaliśmy nowe funkcje,
+  czy użyteczność takich biblotek jak np. Lame. Dodatkowo wykonaliśmy postęp w pracy nad samym projektem. Myślę, że możemy być z niego 
+  zadowoleni.
+  
