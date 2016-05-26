@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <cstdlib>
 #include <lame/lame.h>
 #include "basic_functions.h"
 
@@ -24,7 +25,7 @@ int main(int argc, char **argv)
         {
             case 1 :        FILE *mp3 = fopen("file.mp3", "wb");
                             FILE *pcm = fopen("file.pcm", "rb");
-                            if (pcm == NULL) exit(FAILED);
+                            if (pcm == NULL) exit();
                             temp = pcm_to_mp3(char * pcm, char * mp3);
                             break;
 
