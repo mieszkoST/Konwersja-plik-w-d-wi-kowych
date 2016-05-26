@@ -1,41 +1,54 @@
-// Komenda do kompilacji:   g++ <nazwa_pliku.cpp> -lmp3lame -o PCM_to_MP3
-// Uruchomienie:            ./PCM_to_MP3 <nazwa_pliku_konwertowanego>.pcm <nazwa_pliku>.mp3
-
 #include <stdio.h>
 #include <iostream>
-#include <cstdlib>
 #include <lame/lame.h>
-#include "basic_functions.h"
+#define KONIEC 1
 
-//Dodalem argumenty wywolania programu, zeby nie trzeba bylo ich recznie zmieniac.
 
-int main(int argc, char **argv)
+pcm_to_mp3(char *, char*);
+
+
+
+int main(int argc, int ** argv)
 {
-    int status = 1;
-    int choice = 0;
     int temp;
+    int wybor;
 
-    while (status)
+    while(KONIEC)
     {
-        system("clear");
-        show_menu();
-        scanf("%d", &choice);
-
-        switch(choice)
-        {
-            case 1 :        FILE *mp3 = fopen("file.mp3", "wb");
-                            FILE *pcm = fopen("file.pcm", "rb");
-                            if (pcm == NULL) exit();
-                            temp = pcm_to_mp3(char * pcm, char * mp3);
-                            break;
-
-            case 2 :        exit(EXIT_SUCCESS);
-                            break;
-
-            default :       printf("Try again \n");
-                            while(getchar() != '\n');
-                            break;
+    Menu();
+    scanf("%d", &wybor);
     }
+}
+    switch(wybor)
+    {
+        case 1 :       File *mp3 =fopen("file.mp3", "wb");    /* wb zamazuje stara tresc, otwiera plik w trybie binarnym*/
+                       File *pcm = fopen("file.pcm", "rb");   /* rb otwiera plik do czytania, otwiera plik w trybie bianarnym*/
+                       if (pcm == NULL)
+                       {
+                           return NULL;
+                       }
+                       else
+                       {
+                       temp = pcm_to_mp3(char *pcm, char *mp3);
+                       }
+                       break;
 
-    return 0;
+        case 2 :       return NULL;
+                       break;
+
+        default :      printf("Spróbuj ponownie \n");
+                       while(getchar() != '\n'');
+                       break;
+
+
+    }
+}
+
+
+void Menu()
+{
+    printf("To jest konwerter audio PCM na MP3.\n");
+    printf("Czy chcesz go uzyc ?");
+    printf("1 - Tak, chce przekonwertowac swój plik PCM na MP3");
+    printf("2 - Nie, nie chce konwertowac");
 }
