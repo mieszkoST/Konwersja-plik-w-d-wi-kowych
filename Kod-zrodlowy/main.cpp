@@ -1,3 +1,7 @@
+// Komenda do kompilacji:   g++ main.cpp -lmp3lame -o PCM_to_MP3		
+// Uruchomienie:            ./PCM_to_MP3 <nazwa_pliku_konwertowanego>.pcm <nazwa_pliku>.mp3		
+ 
+
 #include <stdio.h>
 #include <iostream>
 #include <lame/lame.h>
@@ -36,7 +40,7 @@ int main(int argc, int ** argv)
         case 2 :       return NULL;
                        break;
 
-        default :      printf("Spróbuj ponownie \n");
+        default :      printf("SprÃ³buj ponownie \n");
                        while(getchar() != '\n'');
                        break;
 
@@ -49,6 +53,6 @@ void Menu()
 {
     printf("To jest konwerter audio PCM na MP3.\n");
     printf("Czy chcesz go uzyc ?");
-    printf("1 - Tak, chce przekonwertowac swój plik PCM na MP3");
+    printf("1 - Tak, chce przekonwertowac swÃ³j plik PCM na MP3");
     printf("2 - Nie, nie chce konwertowac");
 }
