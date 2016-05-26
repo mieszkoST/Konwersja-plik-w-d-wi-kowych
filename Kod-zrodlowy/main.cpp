@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     while (status)
     {
         system("clear");
-        Menu();
+        show_menu();
         scanf("%d", &choice);
 
         switch(choice)
