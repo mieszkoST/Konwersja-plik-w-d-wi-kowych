@@ -1,4 +1,4 @@
-Trzeba zrobiæ porz¹dek z tymi linkami. Od teraz wrzucamy wszystko do tego pliku. Ka¿dy bêdzie na bie¿¹co móg³ œledziæ, czy coœ ciekawego zosta³o dodane.
+﻿Trzeba zrobiæ porz¹dek z tymi linkami. Od teraz wrzucamy wszystko do tego pliku. Ka¿dy bêdzie na bie¿¹co móg³ œledziæ, czy coœ ciekawego zosta³o dodane.
 Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
 
 1) http://www.leidinger.net/lame/doxy/html/lame_8c.html
@@ -12,3 +12,5 @@ Numerujcie je, u³atwi to ewentualne póŸniejsze dyskusje i pracê.
 5) http://stackoverflow.com/questions/10345064/converting-pcm-to-mp3-using-lame-causes-clicks-in-mp3-file
 
 6) http://www.mp3-tech.org/programmer/decoding.html
+
+7) http://openinnowhere.sourceforge.net/lameonj/javadoc/lame/std/Lame.html#lame_init_params(lame.std.lame_global_flags)
