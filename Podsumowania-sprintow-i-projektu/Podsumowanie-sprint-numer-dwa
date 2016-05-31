@@ -10,11 +10,17 @@
   operacyjny, albo przez VirtualBoxa. Kolejnym krokiem była instalacja biblioteki Lame. Na samym końcu kompilacja programu testowego w celu upewnienia się czy 
   wszystko sprawnie działa.
   
-  Drugi już wymagał od nas wiele więcej pracy. Składał się już z dużo trudniejszych i bardziej czasochłonnych zadań. Głównym celem było przeanalizowanie możliwie największej ilości       funkcji, które były wywoływane przez nasz program. W tym celu analizowaliśmy plik źródłowy lame.c oraz header lame.h.  Dodaliśmy takie funkcje jak lame_init(void) czy lame_encode_flush()
-  oraz znaleźliśmy na forum internetowym trochę informacji o ustawianiu częstotliwości próbkowania przy pomocy bilblioteki LAME. Oczywiście wszystkie te działania zostały udokumentowane i    przeniesione do naszego repozytorium na Github.com. Pojawiły się tam linki do forów oraz ciała funkcji wraz z komentarzami odnośnie ich działania. Niestety, nie udało nam się zrobić tak    dużo, jak planowaliśmy na początku Sprintu. Problem okazał się bardziej skomplikowany oraz   zapętlony. Każda użyta przez nas funkcja w swoim ciele zawierała odwołania do kolejnych,   czego  nie przewidzieliśmy. Dlatego stwierdziliśmy, że zadanie to będzie aktualne również podczas kolejnych naszych Sprintów.
+  Drugi już wymagał od nas wiele więcej pracy. Składał się już z dużo trudniejszych i bardziej czasochłonnych zadań. Głównym celem było przeanalizowanie możliwie największej ilości       
+  funkcji, które były wywoływane przez nasz program. W tym celu analizowaliśmy plik źródłowy lame.c oraz header lame.h.  Dodaliśmy takie funkcje jak lame_init(void) czy lame_encode_flush()
+  oraz znaleźliśmy na forum internetowym trochę informacji o ustawianiu częstotliwości próbkowania przy pomocy bilblioteki LAME. Oczywiście wszystkie te działania zostały udokumentowane i    
+  przeniesione do naszego repozytorium na Github.com. Pojawiły się tam linki do forów oraz ciała funkcji wraz z komentarzami odnośnie ich działania. Niestety, nie udało nam się zrobić tak    
+  dużo, jak planowaliśmy na początku Sprintu. Problem okazał się bardziej skomplikowany oraz   zapętlony. Każda użyta przez nas funkcja w swoim ciele zawierała odwołania do kolejnych,   
+  czego  nie przewidzieliśmy. Dlatego stwierdziliśmy, że zadanie to będzie aktualne również podczas kolejnych naszych Sprintów.
   
   Z trzecim celem, który sobie założyliśmy do wykonania mieliśmy największy problem. W liście zadań mieliśmy takie rzeczy jak na przykład wyszukanie w internecie
-  poradników, przykładów czy fragmentów kodu stworzonego na bazie LAME. Niestety ten cel został wykonany przez nas połowicznie. Okazało się że biblioteka LAME, pomimo swej popularności i   powszechnego zastosowania w wielu innych konwerterach, jest bardzo słabo opisana, a same poradniki czy tutoriale są bardzo trudne do zdobycia, o ile wg takowe istnieją i znajdują się w   internecie. Zadanie to uświadomiło nam, że jedynym źródłem informacji o działaniu samej biblioteki będą same pliki źródłowe oraz ewentualne, szczątkowe informacje z for   programistycznych.
+  poradników, przykładów czy fragmentów kodu stworzonego na bazie LAME. Niestety ten cel został wykonany przez nas połowicznie. Okazało się że biblioteka LAME, pomimo swej popularności 
+  i powszechnego zastosowania w wielu innych konwerterach, jest bardzo słabo opisana, a same poradniki czy tutoriale są bardzo trudne do zdobycia, o ile wg takowe istnieją i znajdują się w   
+  internecie. Zadanie to uświadomiło nam, że jedynym źródłem informacji o działaniu samej biblioteki będą same pliki źródłowe oraz ewentualne, szczątkowe informacje z forprogramistycznych.
   
   Podsumuwując już ogólnie drugi sprint, dowiedzieliśmy się sporo nowych rzeczy na temat konwersji plików audio. Dodatkowo poznaliśmy nowe funkcje,
   czy użyteczność takich biblotek jak np. Lame. Dodatkowo wykonaliśmy niewielki, ale zawsze jakiś, postęp w pracy nad samym projektem. Myślę, że możemy być z niego 
