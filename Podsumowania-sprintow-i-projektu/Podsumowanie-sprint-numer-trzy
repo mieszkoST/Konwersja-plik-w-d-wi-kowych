@@ -1,1 +1,29 @@
+Sprint nr 3.
+Rozpoczêcie: 20.05.16r.
+Zakoñczenie: 25.05.16r.
 
+
+G³ówne zagadnienia realiowane podczas sprintu ( Karty na Trello )
+1) Szczegó³owa analiza funkcji u¿ytych w konwerterze.
+2) Gotowa wersja konwertera miêdzy formatami (PCM to MP3)
+3) Napisanie konwertera w drug¹ stronê (MP3 to PCM)
+4) Poszukanie innych konwerterów.
+
+
+Wyniki pracy:
+
+Ad1) Uda³o nam siê odnaleŸæ i przeanalizowaæ cia³a wiêkszoœci funkcji, które postawiliœmy sobie na cel w tym Sprincie. Ich analiza pozwoli³a nam poszerzyæ swoj¹ wiedzê o kolejne wa¿ne i kluczowe aspekty konwersji dŸwiêku np. VBR czy Resampling. Dodatkowo zwiêkszy³ siê nasz poziom zrozumienia dzia³ania kodu i funkcji z konwertera. Podczas pracy wynikna³ wa¿ny wniosek: Funkcje które wybraliœmy do przeanalizowania wpisywaliœmy na Trello bez argumentów, co jak siê okaza³o nie by³o dobrym posuniêciem - niektóre z nich by³y przeci¹¿one, i musieliœmy ponownie sprawdzaæ, z których z nich dok³adnie korzystamy. 
+
+Uwagi szczególne:
+
+lame_set_VBR() - cia³o nieodnalezione - wywnioskowanie dzia³ania funkcji na podstawie innych Ÿróde³, m.in. na podstawie wiedzy zdobytej na Wikipedii.
+
+lame_init_params() - analiza niemo¿liwa - zbyt skomplikowane dzia³anie, brak wystarczaj¹cej wiedzy i doœwiadczenia.
+
+Ad2) Tutaj proszê o wpisanie wniosków inne osoby, do których nala¿a³o to zadanie.
+Ad3) To samo co wy¿ej.
+
+Ad4) Konwerter jaki analizowaliœmy to Audacity. Jest to przydatne narzêdzie. Pe³ny jego opis znajduje siê w repozytorium. Funkcj¹ konwertera, któr¹ wybraliœmy jednog³oœnie jako najprzydatniejsz¹, okaza³a siê zmiana czêstotliwoœci próbkowania. G³ównym i kluczowym argumentem przy jej wyborze by³a wielkoœæ plików o ró¿nych czêstotliwoœciach próbkowania - Dla plików .wav które przewa¿nie zajmuj¹ du¿o miejsca na dysku, ró¿nice w wielkoœci s¹ znaczne. Tak wiêc uznaliœmy ¿e to w³aœnie t¹ funckjê zrealizujemy najwczeœniej w przysz³oœci. 
+
+
+Podsumowanie ca³oœciowe Sprintu: Napiszemy jak wszystkie powy¿sze bêd¹ kompletne.
