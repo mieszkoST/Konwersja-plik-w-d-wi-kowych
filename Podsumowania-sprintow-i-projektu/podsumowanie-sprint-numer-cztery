@@ -1,0 +1,31 @@
+                                            Podsumowanie sprintu numer cztery !!!
+
+Sprint czwarty rozpoczął się dnia 30 maja 2016, a zakończył 1 czerwca 2016. Na Trello.com wybraliśmy sobie trzy główne cele do wykonania. 
+Przeznaczyliśmy na ten Sprint dosyć mało czasu ale było to spowodowane między innymi tym, że już w czwartek musimy oddać wszystko 
+czyli w środe zakończyć prace, plus ten Sprint głównie opiera się na pisaniu podsumowań ewentualnie dopinaniu ostatnich kwestii 
+związanych z projektem i jest dosyć krótki.
+
+Mianowicie były to :
+	1) Podsumowanie projektu.
+	2) Analiza pozostałych funkcji i struktur.
+	3) Finalny produkt w postaci wizualnej.
+	
+Pierwszy z celów był pisaniem lub kończeniem podsumowań własnych czy dotyczących już samych sprintów. Każdy z nas wywiązał się z tego 
+niemalże idealnie wszyscy współpracowaliśmy i wykonaliśmy to w stu procentach. Po wrzuceniu wszystkiego na GitHub'a. Przeszliśmy z tym
+wszystkim do narzędzia, które poznaliśmy na zajęciach INPG, a mianowicie Arkuszy Google'a. Tam scaliliśmy wszystko w jedno, a następnie
+pododawaliśmy wykresy oraz poprawiliśmy ogólną wizualizacje podsumowania.
+
+Drugi opierał się już na analizie ostatnich funkcji czy struktur. Tutaj udało nam się znaleźć siedem z dziewięciu zaplanowanych 
+funkcji, a mianowicie :
+	a) lame_init_old(gfp);
+	b) calcNeeded(cfg);
+	c) memset(buffer, 0, sizeof(buffer));
+	d) lame_encode_buffer(gfp, buffer[0], buffer[1], bunch,mp3buffer, mp3buffer_size_remaining);
+	e) flush_bitstream(gfc);
+	f) copy_buffer(gfc, mp3buffer, mp3buffer_size_remaining, 1);
+	g) save_gain_values(gfc);
+Niestety nie udało się nam się wyszukać init_log_table(); i #Struktura:  lame_global_flags *gfp;. Pomimo faktu, że sporo 
+czasu spędziliśmy na przeszukiwaniu internetu. Opisy funkcji, które udało nam się odszukać są zawarte na GitHub, gdzie można znaleźć 
+komentarze do niektórych linijek.
+
+Trzeci i ostatni cel --- Tutaj kordian wpisz bo Ty się tym zajmowałeś.
