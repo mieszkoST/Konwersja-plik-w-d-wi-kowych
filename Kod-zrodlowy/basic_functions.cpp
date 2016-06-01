@@ -1,4 +1,5 @@
 #include "basic_functions.h"
+#include <stdio.h>
 
 
 void Menu()
@@ -22,4 +23,5 @@ void read_save(char * read, char * save)
                    int temp = pcm_to_mp3(pcm, mp3);
                 }
                 break;
+}
 
