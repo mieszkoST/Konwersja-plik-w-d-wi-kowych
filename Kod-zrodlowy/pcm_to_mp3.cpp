@@ -7,14 +7,14 @@ int pcm_to_mp3 (char * pcm, char * mp3)
 {
     int read, write;
 
-    FILE *pcm = fopen ("file.pcm", "rb");
+    FILE *pcm = fopen (pcm, "rb");
 
     //Sprawdzam czy konwertowany plik .pcm istnieje, zeby nie naruszac pamieci gdy sie pomylimy przy wpisywaniu.
-	if (pcm == nullptr)
+	if (pcm == NULL)
 		return -1;
 
     //Plik .mp3 jest tworzony automatycznie, jesli nie istnieje, wiec nie ma potrzeby sprawdzania.
-    FILE *mp3 = fopen ("file.mp3", "wb");
+    FILE *mp3 = fopen (mp3, "wb");
 
     const int PCM_SIZE = 8192;
     const int MP3_SIZE = 8192;

@@ -33,6 +33,7 @@ int main ()
 	        fgets(second, SIZE, stdin);
 	        read_save(first, second);
 	        break;
+    
     case 2 :    exit(EXIT_SUCCESS);  // zakonczenie dzialania programu w tym momencie
                 break;
 
@@ -40,10 +41,7 @@ int main ()
                 while (getchar() != '\n');
                 break;
 
-}
-
-
-    
-}
+      }
+	}}
 
 
