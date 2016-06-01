@@ -5,12 +5,15 @@
 #include <stdio.h>
 #include <iostream>
 #include <lame/lame.h>
+#include <stdlib.h>
 #include "basic_functions.h"
 #define KONIEC 1
 
 
+// Rezygnujemy z podawania w konsoli nazwy plikow docelowych
+// Menu bedzie zaprojektowane aby podawanie plikow bylo efektywniejsze
 
-int main (int argc, int **argv)
+int main ()  
 {
     int temp;
     int wybor;
@@ -35,7 +38,7 @@ int main (int argc, int **argv)
                 }
                 break;
 
-    case 2 :    return NULL;
+    case 2 :    exit(EXIT_SUCCESS);  // zakonczenie dzialania programu w tym momencie
                 break;
 
     default :   printf ("Spróbuj ponownie \n");
