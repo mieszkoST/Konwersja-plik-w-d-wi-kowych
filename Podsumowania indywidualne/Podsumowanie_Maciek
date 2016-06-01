@@ -1,0 +1,28 @@
+Podsumowanie pracy nad konwerterem plików dźwiękowych
+Maciej Blaszczyk
+
+Naszym celem było stworzenie konwertera dowolnych plików dźwiękowych w dowolnym języku programowania.
+
+W 1 sprincie zajmowaliśmy się głównie rozważaniami nad zaletami i wadami rożnych jeżyków programowania 
+których moglibyśmy użyć do stworzenia naszego projektu oraz nad sprawami organizacyjnymi takimi jak rozdzielenie 
+zakresu pracy pomiędzy nas czterech. Godzinami przeszukiwałem Internet aby znaleźć jakieś informacje. Wszystko co
+wpadło mi w ręce wrzucałem od razu na gita, aby inni mogli poszerzać również swoją wiedzę. 
+Glosowałem za językiem C/C++ ponieważ znam go najlepiej, a więc pisząc w tym języku czułbym się najswobodniej. 
+Po 1 tygodniu byłem już zaznajomiony z podstawowymi formatami dźwięku (mp3, wav, pcm), wybraliśmy język programowania (C/C++), 
+trzeba było ruszać dalej. 
+
+Nadszedł czas na drugi sprint i kolejne wyzwania. W odkrytej bibliotece lame.h znajduje się mnóstwo funkcji potrzebnych 
+do naszego konwertera, ktorych musieliśmy się nauczyć obsługiwać. W Internecie udało się znaleźć parę stron nawiązujących
+do wyżej wymienionej biblioteki. Wertując kolejne strony wyszukiwarki Google sumiennie wrzucałem wszystkie znalezione 
+przydatne linki na gita, tak aby wszyscy mogli przeć z pracą do przodu. Po 2 tygodniu byliśmy gotowi na rozpoczęcie 
+pracy z kodem źródłowym naszego konwertera . 
+
+W 3 sprincie wykorzystując znalezione wcześniej materiały mogłem  rozpocząć analizę poszczególnych funkcji 
+wbudowanych w bibliotekę lame.h.  Udało mi się znaleźć ciała i opisać funkcje lame_close() oraz lame_encode_buffer_interleaved(). 
+Dzięki temu nasze prace znacząco ruszyły się do przodu.  Próbowałem stworzyć gotową wersję konwertera, ale moje możliwości 
+były jeszcze zbyt małe i poniosłem fiasko.
+
+W 4 sprincie konwerter był już prawie gotowy. Moim zadaniem było zorganizowanie kodu i sprawdzenie pod katem błędów. 
+Po wielu drobnych poprawkach estetycznych kod stał się przyjemny w czytaniu, co na pewno ułatwiło prace kolegom. 
+Na płaszczyźnie technicznej dokonałem paru zmian co spowodowało, że konwerter był już praktycznie sfinalizowany.
+Minęły 4 tygodnie ciężkiej pracy, z czystym sumieniem mogę powiedzieć że odwaliłem kawał dobrej roboty.
