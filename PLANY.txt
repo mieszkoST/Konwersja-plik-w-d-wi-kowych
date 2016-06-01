@@ -1,0 +1,8 @@
+Nasz 4 Sprintowy okres pracy dobieg³ koñca.
+Jesteœmy bogatsi o sporo wiedzy i nowe doœwiadczenia.
+Uda³o nam siê sporo zrobiæ, sporo dowiedzieæ o plikach dŸwiêkowych. 
+
+Analizuj¹c nasze dotychczasowe postêpy, stwierdzamy ¿e aby dalej ulepszaæ nasz konwerter, aby podnieœæ go na wy¿szy problem, musimy bardziej szczegó³owo wg³êbiæ siê w tajniki zapisu, odczytu i przetwarzania plików dŸwiêkowych. Jest to wiedza niezbêdna do dalszej pracy. Bez niej patrzenie w kod biblioteki LAME bêdzie bezsensownym dzia³aniem, czytaniem bez zrozumienia. 
+
+Tak wiêc nasz cel nie bêdzie zbyt górnolotny. 
+Bêdzie nim po prostu dalsza nauka, zg³êbianie i poszerzanie wiedzy. 
