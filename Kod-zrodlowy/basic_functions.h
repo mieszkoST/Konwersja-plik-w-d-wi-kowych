@@ -3,12 +3,12 @@
 #ifndef BASIC_FUNTIONS
 #define BASIC_FUNTIONS
 
-void show_menu ()
+void Menu()
 {
-    printf ("Konwerter audio\n");
-    printf ("Wybierz jedna z opcji \n");
-    printf ("1.Przekonwertowac pmc na mp3\n");
-    printf ("2.Wyjsc z programu \n");
+    printf("To jest konwerter audio PCM na MP3.\n");
+    printf("Czy chcesz go uzyc ?");
+    printf("1 - Tak, chce przekonwertowac swój plik PCM na MP3");
+    printf("2 - Nie, nie chce konwertowac");
 }
 
 #endif // BASIC_FUNTIONS

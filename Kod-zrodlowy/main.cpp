@@ -5,10 +5,8 @@
 #include <stdio.h>
 #include <iostream>
 #include <lame/lame.h>
+#include "basic_functions.h"
 #define KONIEC 1
-
-
-pcm_to_mp3 (char *, char*);
 
 
 
@@ -23,8 +21,8 @@ int main (int argc, int **argv)
     	scanf ("%d", &wybor);
    
 
-switch(wybor)
-{
+    switch(wybor)
+       {
     case 1 :	File *mp3 =fopen("file.mp3", "wb");    /* wb zamazuje stara tresc, otwiera plik w trybie binarnym*/
                 File *pcm = fopen("file.pcm", "rb");   /* rb otwiera plik do czytania, otwiera plik w trybie bianarnym*/
                 if (pcm == NULL)
