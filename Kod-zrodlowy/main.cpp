@@ -21,8 +21,8 @@ int main (int argc, int **argv)
     {
     	Menu ();
     	scanf ("%d", &wybor);
-    }
-}
+   
+
 switch(wybor)
 {
     case 1 :	File *mp3 =fopen("file.mp3", "wb");    /* wb zamazuje stara tresc, otwiera plik w trybie binarnym*/
@@ -43,6 +43,8 @@ switch(wybor)
     default :   printf ("Spróbuj ponownie \n");
                 while (getchar() != '\n');
                 break;
+
+}
 
 
     
