@@ -26,8 +26,21 @@ m.in. na podstawie wiedzy zdobytej na Wikipedii.
 
 lame_init_params() - analiza niemożliwa - zbyt skomplikowane działanie, brak wystarczającej wiedzy i doświadczenia.
 
-Ad2) Tutaj proszę o wpisanie wniosków inne osoby, do których nalażało to zadanie.
-Ad3) To samo co wyżej.
+Ad2) W tym założonym celu w sprincie numer dwa udało nam się stworzyć proste menu do naszego konwertera. Oczywiście nie obyło
+się bez klopotów, ponieważ pierwotny pomysł ze stworzeniem menu w osobnym pliku lekko mówiąc nie wyszedł. Jednak po zlączeniu
+tego w jedność wszystko zaczeło "pracować" tak jak sobie to wyobrażaliśmy. Kolejnym podcelem była analiza kodu pod kątem wszelakich
+błędów. To też nam się udało wykonać. Możemy byc zadowoleni z tego celu, ponieważ stworzenie szaty graficznej niestety 
+przekroczyło nasze możliwości programistyczyne. Jednak reszta została wykonana.
+
+Ad3) Tutaj napisaliśmy tę funkcje, która konwertuje plik w drugą strone. Przytoczę plik, który znajduje się 
+w folderze Kod-zrodlowy : 
+"Mamy funkcję pcm to mp3 i ona działa.
+Najważniejszym elementem teraz będzie jak najmniejsza ingerencja
+w kod, ponieważ w takiej ilości kodu z bibioteki nie jesteśmy w
+stanie się odnaleźć. Trzeba odpowiednio tylko poprzestawiać dane,
+które są wpisane i ta funkcja powinna zadziałać." Przeprowadziliśmy analize formatu PCM i formatu MP3, która pozwolila
+nam własnie stworzyć tę funkcje. Dzięki tym subtelnym zmianom mamy prawo być zadowoleni z efektu końcowego czylli stworzenia
+funkcji, która działa.
 
 Ad4) Konwerter jaki analizowaliśmy to Audacity. Jest to przydatne narzędzie. Pełny jego opis znajduje się w repozytorium. 
 Funkcją konwertera, którą wybraliśmy jednogłośnie jako najprzydatniejszą, okazała się zmiana częstotliwości próbkowania. 
