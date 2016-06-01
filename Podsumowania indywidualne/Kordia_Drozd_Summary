@@ -1,0 +1,61 @@
+Drozd Kordian
+
+Zadania wykonane podczas poszczególnych Sprintów:
+Sprint 1:
+
+1) Dyskusja z członkami zespołu na temat kształtu naszego projektu, włączaj w to decyzje o języku programowania i środowisku,
+w którym zamierzamy ten projekt realizować.
+
+2) Produkt, którym mamy się zając może odzwierciedlać prawdziwą sytuację, W związku z tym musieliśmy przedyskutować 
+jakie to wady i zalety potrzebujemy w naszym oprogramowaniu. Jest to jedno z kluczowych zadań, odpowiednie zrozumienie tematu
+pomaga lepiej zrozumieć klientów.
+
+3) Zostaliśmy postawieni przed pewnym problemem, każdy na początku wykonywał bardzo podobne zadania. Tutaj dużo nie będziemy się 
+różnicować. Chodzi o zapoznanie się z tematem naszego projektu. Szukałem jak i moi koledzy z zespołu informacji, 
+którymi mogłem się podzielić z innymi ale także wzbogacić swoją wiedzę na te temat. Pomimo czasów, w których żyjemy 
+gdzie internet pełni praktycznie nieskończone źródło informacji, miałem pewne problemy z znalezieniem dla przykładu
+polskich informacji. Większość była w języku angielskim, dlatego trzeba było się też z nimi zapoznać bardzo dokładnie i powoli.
+Czytanie w języku obcym nigdy nie będzie takie jak w ojczystym. Do tego dochodzi specyficzna terminologia muzyczna i programistyczna,
+z którą nie jesteśmy tak dobrze zaznajomieni. To zadanie było dość wymagające dla mnie, po pewnym czasie podzieliłem się znalezionymi
+informacjami i myślę, że każdy na tym skorzystał. Te informacje znalezione porozsyłałem do członków zespołu, najczęściej przez 
+najszybszy strumień danych czyli Facebook. Po raz kolejny odnosząc się do sytuacji życiowej ten sprint można określić jako naprawdę
+wartościowe doświadczenie.
+
+
+Sprint 2:
+
+1)  W tym sprincie zaczynamy naszą pracę, jeśli chodzi o pisanie kodu. Zabrałem się za pomoc w instalacji środowiska.
+Uznaliśmy, że najlepszym środowiskiem będzie linux. Jako, że miałem wcześniej doświadczenie z tym system (używam go na co dzień)
+pozwoliłem sobie napisać instrukcję instalacji tego systemu na wirtualnej maszynie. Było to o tyle ważne, ponieważ odnalezienie
+się w Windowsie nie jest takie proste. Linux oferuję szybką i bezproblemową instalację niektórych bibliotek. To wydawało się
+bardzo praktyczne. Przygotowałem dla kolegów ale także dla każdej osoby, która będzie chciała skorzystać z naszego projektu,
+pewnego rodzaju poradnik dotyczący konfiguracji VirtualBoxa oraz Ubuntu. Jest on zamieszczony przez ze mnie w podsumowaniu sprintu 
+pierwszego. Myślę, że to okazało się bardzo przydatne dla moich kolegów.  Rozpoczynając zabawę z czymś nieznanym, można to określić
+jako coś nowego i fascynującego zarazem. Jednak szybko odniosłem wrażenie, że nie musi być to tak łagodne, delikatne i przyjemne a 
+takie może tylko sprawiać wrażenie. Bardzo ciężko odnaleźć się w takim ogromie informacji a także w olbrzymiej czy nawet monstrualnej 
+bibliotece jaką zainstalowaliśmy na naszych systemach.
+Internet w tym przypadku pomógł, postarałem znaleźć pewne światełko w tunelu naszego odkrywania, zamieściłem przykładowy kod z
+wykorzystaniem tej biblioteki. Działał prawidłowo, koledzy mogą potwierdzić. 
+
+2) W miarę postępowania naszego projektu, analizowałem pewne funkcje, które mogą być przydatne w przyszłości. Dla przykładu
+podam funkcję lame_init_params() oraz lame_set_VBR. Przyznam, że te druga sprawiła mi sporo kłopotu, nie była tak oczywista
+a znajdując się w pliku lame.h mimowolnie byłem przekonany, że ciało tej funkcji będzie znajdować się w lame.c, jednak tak niestety
+się nie stało. Przeglądnięcie całej biblioteki lame.c było bardzo zajmujące co frustrujące. Ukończyliśmy to przez znalezienie 
+ciała w internecie. Sprint numer dwa można określić jako “pierwsze koty, za płoty”.
+
+
+Sprint 3
+
+1) Wreszcie! Niektórzy zniecierpliwieni mogliby rzec. Zaczynając ten sprint ukończyłem stworzenie funkcji pcm_to_mp3,
+która działała nadspodziewanie dobrze.
+Dodatkowo, udostępniłem bardzo podstawowe menu do obsługi programu. Stworzyłem taką funkcję, która konwertuje w drugą stronę. 
+Jednak ona została trochę na uboczu ponieważ tam częstotliwości próbkowania raczej się nie zgadzały  i powinny zostać sprawdzone.
+Krok po kroku zdobywanie kolejnej cennej wiedzy.
+
+
+Sprint 4
+
+1) W tym sprincie omówimy nasze zakończenie. Dodałem folder libmp3lame gdzie można umieszczać ważne pliki dotyczące właśnie tej
+biblioteki. Jest tam wrzucony przeze mnie jeden plik, dość obszerny trzeba przyznać. Do tego kilkakrotnie edytowałem kod, próbując
+go ulepszyć. Doszła do tego przebudowa modułowa naszego programu, Odseparowałem od siebie funkcje, przeorganizowałem kod a takż
+usunąłem niepotrzebne fragmenty. Był to rzeczywiście pracowity fragment.
