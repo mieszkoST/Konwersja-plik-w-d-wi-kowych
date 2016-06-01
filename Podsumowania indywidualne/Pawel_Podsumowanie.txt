@@ -41,3 +41,6 @@ Zajmowałem się ponadto Trello, przydzielałem terminy realizacji zadań i star
 	a) CalcNeeded()
 	b) save_Gain_values()
 	c) lame_init_old()
+	d) copy_buffer()
+5) Stworzenie indywidalnego podsumowania
+6) Wsp�lne stworzenie grupowego podsumowania projektu.
