@@ -1,0 +1,154 @@
+Mieszko Cholewa
+
+Na zajęciach z Informatycznych Narzędzi Pracy Grupowej dostaliśmy do wykonania
+
+projekt. Głównym celem tego projektu było stworzenie programu, który umożliwiałby
+
+konwersje plików audio. Temat tego projektu dotykał takich problemów jak pobieranie
+
+ścieżek z np. serwisu Youtube, a następnie konwersja tego pliku w inny format audio. W
+
+wykonaniu całości miały nam pomóc takie narzędzia jak GitHub i Trello. Trello umożliwiało
+
+nam zaplanowanie wszystkiego na tak zwane Sprinty, które z reguły trwają około tygodnia.
+
+W związku z tym, że mieliśmy miesiąc, postawiliśmy na cztery Sprinty. Natomiast GitHub
+
+pozwalał nam na „wrzucanie” zdobytej wiedzy, funkcji, kodów czy ich późniejszą
+
+modyfikacje. Przejdźmy już do samego opisu każdego Sprintu.
+
+
+Sprint numer jeden :
+
+Prawie wszystkie cele, które mieliśmy tutaj wykonać opierały się na zbieraniu czy zgłębianiu
+
+swojej wiedzy w dziedzinie zawartej w zadaniu. Zacznijmy od wyboru języka oprogramowania
+
+oraz jego środowiska. Tutaj po poszukiwaniach w internecie różnych kodów, funkcji które
+
+mogłyby się sprawdzić w naszym programie uznaliśmy, że język C/C++ będzie najlepszy.
+
+Dodatkowo jest to to w czym czujemy się najlepiej w związku z tym, że uczymy się go na
+
+studiach. Znalezienie biblioteki LAME zmusiło nas do wyboru systemu Linux, a dokładniej wersji
+
+Ubuntu. W tym Sprincie zdobyłem podstawowa wiedzę o takich rzeczach jak kodeki czy pliki
+
+dźwiękowe. O wszystkim tym musiałem czytać w internecie lub korzystać z materiałów
+
+wrzuconych przez kolegów. Następnie rozpoczęły się poszukiwania popularnych formatów
+
+plików do których moglibyśmy stworzyć konwerter. Zdecydowaliśmy się na MP3/PCM.
+
+Kolejną rzeczą z jaką udało mi się zapoznać jest pobieranie plików pod kątem prawnym.
+
+Był to plik wrzucony przez jednego z partnerów. Ostatnią już rzeczą było przeniesienie
+
+zdobytej wiedzy na GitHub.com. Jak już pisałem większość tego Sprintu opierała się na
+
+czytaniu informacji zawartych w internecie i przygotowaniu dobrego fundamentu pod
+
+dalsze działania.
+
+
+Sprint numer dwa :
+
+Jako, że zdecydowaliśmy się przejść na Linuxa. Nawet został stworzony poradnik do
+
+zainstalowania wirtualnej maszyny VirtualBox, systemu Ubuntu. Jednak ja postanowiłem
+
+w związku z tym, że mój laptop już ledwo działał, iż zainstaluje po prostu Ubuntu jako
+
+system. Poszło mi to całkiem sprawnie i okazało się dużo łatwiejsze niż się
+
+spodziewałem. W szczególności jeżeli uwzględnimy różne mity krążące na temat Linuxa.
+
+Kolejną czynnością, którą wykonałem była instalacja biblioteki LAME, oraz wykonanie
+
+testu na przykładowym programie, który również można znaleźć na GitHub'ie. Dodatkowo
+
+odseparowałem kod na GitHub, żeby uporządkować repozytorium. Tutaj niestety nie
+
+udało wykonać mi się więcej czynności. Zapoznanie się z systemem Ubuntu. Instalacja
+
+go przez pendrive'a, ponieważ nie posiadam wejścia CD przez co musiałem zmienić w
+
+Biosie czytanie systemu. Stworzenie kopii zapasowej Windowsa, którego miałem zabrało
+
+mi sporo czasu. Jednakże, na bieżąco zapoznawałem się z rzeczami wrzucanymi przez
+
+kolegów.
+
+
+Sprint numer trzy :
+
+W tym sprincie głównie zająłem się zmienieniem main'a. Stworzeniem odpowiedniego
+
+menu do programu, który ułatwiałby obsługę programem.
+
+Miałem z tym sporo problemów, ponieważ poziom mojego programowania stoi na bardzo
+
+bardzo niskim poziomie. Znam podstawy ale niestety wszystko przychodzi mi bardzo
+
+opornie. Jednak udało się scalić dwa pliki w jedno i udoskonalić kod. Dodatkowo
+
+napisałem sprawozdanie Sprintu numer dwa. Po tym wszystkim uznałem, że rozsądnym
+
+będzie stworzenie nowego folderu, który odzieli wszystkie podsumowania od reszty.
+
+Wszystko to po aby repozytorium było jeszcze bardziej przejrzyste. Dodatkowo chciałem
+
+się zająć tak zwaną konwersją w drugą stronę, jednak moje umiejętności uniemożliwiły mi
+
+to. Na całe szczęście kolega już po napisaniu wytłumaczył mi jak to działa przez co
+
+mogłem powiększyć swoją wiedzę z zakresu programowania.
+
+
+Sprint numer cztery :
+
+Tutaj dodałem parę funkcji do naszego repozytorium takich jak :
+
+1) int lame_init_bitstream(lame_global_flags * gfp);
+
+2) void * memset ( void * buffer, int c, size_t num );
+
+3) int lame_encode_buffer(lame_global_flags *gfp, const short int buffer_l[], const short
+
+int buffer_r[], const int nsamples, unsigned char *mp3buf, const int mp3buf_size);
+
+Dodatkowo dokończyłem sprawozdanie z Sprintu numer trzy, a dokładniej z rzeczy, które
+
+ja w nim wykonałem. Na już sam koniec napisałem sprawozdanie z Sprintu numer cztery,
+
+a dokladniej z dwóch pierwszych punktów. Resztę dopisał kolega, ponieważ to on
+
+zajmował się tym problemem. Dodatkowo stworzyłem sprawozdanie personalne oraz
+
+pomogłem przy tworzeniu sprawozdania ogólnego (przeniesienie wszystkiego do Arkuszy
+
+Google'a).
+
+
+Już tak w samej kwestii podsumowania, projekt ten był bardzo ciekawy dzięki niemu
+
+mogłem dowiedzieć się wielu nowych rzeczy. Najbardziej interesującym była instalacja
+
+systemu Ubuntu. Mogę sobie zarzucić brak systematyczności, jednak jest to problem z
+
+którym borykam się wszędzie w każdej dziedzinie od kiedy pamiętam. Kolejna kwestią
+
+jest fakt, że nie przepadam za pracą grupową. Może nie tyle co nie przepadam co nigdy
+
+nie mogę się odnaleźć. Nie wiem co mam zrobić, czym się zając itp. Dużym utrudnieniem
+
+w moim wypadku była niestety bariera „językowa” w sensie rozumienia kodów, które
+
+znaleźliśmy w internecie czy pisanie swoich. Jednak jestem wdzięczny, że przez ten cały
+
+projekt mogłem zapoznać się lepiej z takimi narzędziami jak Trello czy GitHub. W
+
+szczególności, że w większości ofert pracy, staży, praktyk jest zawarta właśnie
+
+znajomość Gita.
