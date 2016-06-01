@@ -7,6 +7,7 @@
 #include <lame/lame.h>
 #include <stdlib.h>
 #include "basic_functions.h"
+#include "pcm_to_mp3.h"
 #define KONIEC 1
 #define SIZE 30
 
@@ -31,7 +32,7 @@ int main ()
        {
     case 1 :	fgets(first, SIZE, stdin);
 	        fgets(second, SIZE, stdin);
-	        read_save(first, second);
+	        pcm_to_mp3(first, second);
 	        break;
     
     case 2 :    exit(EXIT_SUCCESS);  // zakonczenie dzialania programu w tym momencie

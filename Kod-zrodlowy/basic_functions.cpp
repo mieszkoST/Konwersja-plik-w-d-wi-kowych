@@ -5,10 +5,10 @@
 
 void Menu()
 {
-    printf("To jest konwerter audio PCM na MP3.\n");
-    printf("Czy chcesz go uzyc ?");
-    printf("1 - Tak, chce przekonwertowac swój plik PCM na MP3");
-    printf("2 - Nie, nie chce konwertowac");
+    printf("To jest konwerter audio PCM na MP3.\n\n");
+    printf("Czy chcesz go uzyc ?\n");
+    printf("1 - Tak, chce przekonwertowac swój plik PCM na MP3\n");
+    printf("2 - Nie, nie chce konwertowac\n");
 }
 
 

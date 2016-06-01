@@ -6,7 +6,6 @@
 
 void Menu();
 
-void read_save(char * read, char * save);
 
 
 #endif // BASIC_FUNTIONS
