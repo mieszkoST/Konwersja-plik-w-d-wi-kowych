@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include "basic_functions.h"
 #define KONIEC 1
+#define SIZE 30
 
 
 // Rezygnujemy z podawania w konsoli nazwy plikow docelowych
@@ -17,6 +18,8 @@ int main ()
 {
     int temp;
     int wybor;
+    char first[SIZE];
+    char second[SIZE];		
 
     while (KONIEC)
     {
@@ -26,18 +29,10 @@ int main ()
 
     switch(wybor)
        {
-    case 1 :	File *mp3 =fopen("file.mp3", "wb");    /* wb zamazuje stara tresc, otwiera plik w trybie binarnym*/
-                File *pcm = fopen("file.pcm", "rb");   /* rb otwiera plik do czytania, otwiera plik w trybie bianarnym*/
-                if (pcm == NULL)
-                {
-                    return NULL;
-                }
-                else
-                {
-                    temp = pcm_to_mp3(char *pcm, char *mp3);
-                }
-                break;
-
+    case 1 :	fgets(first, SIZE, stdin);
+	        fgets(second, SIZE, stdin);
+	        read_save(first, second);
+	        break;
     case 2 :    exit(EXIT_SUCCESS);  // zakonczenie dzialania programu w tym momencie
                 break;
 
