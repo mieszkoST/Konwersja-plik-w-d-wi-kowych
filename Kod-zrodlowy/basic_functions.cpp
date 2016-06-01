@@ -1,8 +1,5 @@
-// Ten plik zawiera podstawowe funkcje nie zwiazane z samym konwerterem
+#include "basic_functions.h"
 
-#ifndef BASIC_FUNTIONS
-#define BASIC_FUNTIONS
-#include "pcm_to_mp3.h"
 
 void Menu()
 {
@@ -26,4 +23,3 @@ void read_save(char * read, char * save)
                 }
                 break;
 
-#endif // BASIC_FUNTIONS
