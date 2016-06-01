@@ -26,6 +26,7 @@ int main ()
     {
     	Menu ();
     	scanf ("%d", &wybor);
+	while (getchar() != '\n');
    
 
     switch(wybor)
