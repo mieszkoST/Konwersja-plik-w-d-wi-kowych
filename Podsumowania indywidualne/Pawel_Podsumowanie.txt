@@ -1,32 +1,32 @@
-Wêgrzyn Pawe³
+WÄ™grzyn PaweÅ‚
 
-Zadania wykonane podczas poszczególnych Sprintów.
-Wszystkie zdobyte pliki, linki itp. by³y regulanie wrzuca³em do repozytorium.
-Zajmowa³em siê ponadto Trello, przydziela³em terminy realizacji zadañ i stara³em siê dopilnowaæ aby by³y one wykonywane. Kierowa³em sie z napotkanymi problemami i pytaniami do innych cz³onków zespo³u.
+Zadania wykonane podczas poszczegÃ³lnych SprintÃ³w.
+Wszystkie zdobyte pliki, linki itp. byÅ‚y regularnie wrzucane do repozytorium.
+ZajmowaÅ‚em siÄ™ ponadto Trello, przydzielaÅ‚em terminy realizacji zadaÅ„ i staraÅ‚em siÄ™ dopilnowaÄ‡ aby byÅ‚y one wykonywane. KierowaÅ‚em sie z napotkanymi problemami i pytaniami do innych czÅ‚onkÃ³w zespoÅ‚u.
 
 	Sprint 1:
-1) Wybór jêzyka oraz œrodowiska - wspólna decyzja cz³onków na drodze dyskusji.
-2) Zdobycie podstawowej wiedzy na temat kodeków, plików dŸwiêkowych i ich konwersji.
-3) Poszukiwania najpopularniszych i najczêœciej u¿ywanych formatów plików oraz funkcji które s¹ kluczowe dla klientów.
-4) Analiza pobierania plików pod k¹tem prawnym.
+1) WybÃ³r jÄ™zyka oraz Å›rodowiska - wspÃ³lna decyzja czÅ‚onkÃ³w na drodze dyskusji.
+2) Zdobycie podstawowej wiedzy na temat kodekÃ³w, plikÃ³w dÅºwiÄ™kowych i ich konwersji.
+3) Poszukiwania najpopularniszych i najczÄ™Å›ciej uÅ¼ywanych formatÃ³w plikÃ³w oraz funkcji ktÃ³re sÄ… kluczowe dla klientÃ³w.
+4) Analiza pobierania plikÃ³w pod kÄ…tem prawnym.
 5) Stworzenie Wiki na GitHub.com oraz przeniesienie tam wszystkich zdobytych informacji.  
 
 	Sprint 2:
-1) Stworzenie œrodowiska pracy - instalacja VirtualBoxa, systemu Ubuntu oraz jego konfiguracja. 
-2) Instalacja biblioteki LAME oraz jej przetestowanie pod k¹tem poprawnoœci dzia³ania.
-3) Odnalezie pliku z opisem i nag³ówkami funkcji zawarych w bibliotece.
-4) Dodanie do utworzonego konwertera argumentów wywo³ania oraz kontroli poprawnoœci otwarcia pliku.
-5) Odnalezie kilku funkcji u¿ywanych w programie, tj.
+1) Stworzenie Å›rodowiska pracy - instalacja VirtualBoxa, systemu Ubuntu oraz jego konfiguracja. 
+2) Instalacja biblioteki LAME oraz jej przetestowanie pod kÄ…tem poprawnoÅ›ci dziaÅ‚ania.
+3) Odnalezie pliku z opisem i nagÅ‚Ã³wkami funkcji zawarych w bibliotece.
+4) Dodanie do utworzonego konwertera argumentÃ³w wywoÅ‚ania oraz kontroli poprawnoÅ›ci otwarcia pliku.
+5) Odnalezie kilku funkcji uÅ¼ywanych w programie, tj.
 	a) lame_encode_flush();
 	b) lame_init();
 	c) lame_encode_buffer_interleaved();
 	d) lame_encode_buffer_template();
-6) Wyczytanie na forach kilku przydatnych informacji o czêstotliowoœci próbkowania.
-7) Uporz¹dkowanie linków i odnoœników do ró¿nych ciekawych stron internetowych - stworznie jednego pliku zawieraj¹cego je wszystkie, tak aby ich odnalezienie by³o ³atwiejsze i szybsze.
+6) Wyczytanie na forach kilku przydatnych informacji o czÄ™stotliowoÅ›ci prÃ³bkowania.
+7) UporzÄ…dkowanie linkÃ³w i odnoÅ›nikÃ³w do rÃ³Å¼nych ciekawych stron internetowych - stworznie jednego pliku zawierajÄ…cego je wszystkie, tak aby ich odnalezienie byÅ‚o Å‚atwiejsze i szybsze.
 
 	Sprint 3:
-1) Szczegó³owy opis i analiza konwertera Audacity pod k¹tem u¿ytecznych funkcji, ich dzia³ania. Zdobywaj¹c dodatkow¹ wiedzê na temat plików dŸwiêkowych stwierdziliœmy ¿e bardzo przydatn¹ funkcj¹ jest ustawianie czêstotliowoœci próbkowania. I to j¹ jednog³oœnie wybraliœmy do zrealizowania.
-2) Systematyczne analizowanie i dodawanie komentarzy do funkcji. Próba przeanalizowania i zrozumienia ich dzia³ania. Rozwa¿ane funkcje:
+1) SzczegÃ³Å‚owy opis i analiza konwertera Audacity pod kÄ…tem uÅ¼ytecznych funkcji, ich dziaÅ‚ania. ZdobywajÄ…c dodatkowÄ… wiedzÄ™ na temat plikÃ³w dÅºwiÄ™kowych stwierdziliÅ›my Å¼e bardzo przydatnÄ… funkcjÄ… jest ustawianie czÄ™stotliowoÅ›ci prÃ³bkowania. I to jÄ… jednogÅ‚oÅ›nie wybraliÅ›my do zrealizowania.
+2) Systematyczne analizowanie i dodawanie komentarzy do funkcji. PrÃ³ba przeanalizowania i zrozumienia ich dziaÅ‚ania. RozwaÅ¼ane funkcje:
 	a) lame_init()
 	b) lame_encode_flush()
 	c) lame_set_in_samplerate()
@@ -34,9 +34,9 @@ Zajmowa³em siê ponadto Trello, przydziela³em terminy realizacji zadañ i stara³em
 	e) lame_set_VBR()
 
 	Sprint 4:
-1) Uporz¹dkowanie repozytorium. Stowrzenie archiwum na niepotrzebne, nieu¿ywane ju¿ pliki.
+1) UporzÄ…dkowanie repozytorium. Stowrzenie archiwum na niepotrzebne, nieuÅ¼ywane juÅ¼ pliki.
 2) Edycja i poprawki w Podsumowaniu Sprintu nr 2.
-3) Napisanie po³owy Podsumowania Sprintu nr 3.
+3) Napisanie poÅ‚owy Podsumowania Sprintu nr 3.
 4) Wyszukanie i wrzucenie do repozytorium kolejnych funkcji do analizowania:
 	a) CalcNeeded()
 	b) save_Gain_values()
